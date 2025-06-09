@@ -8,6 +8,7 @@ Route::get('/', function () {
     return Inertia::render('Welcome');
 })->name('home');
 Route::get('/pdf/last', [PdfFileController::class, 'latestPdf'])->name('pdf.show');
+Route::get('/pdf/{pdf}/download', [PdfFileController::class, 'download'])->name('pdf.download');
 
 
 Route::get('dashboard', function () {

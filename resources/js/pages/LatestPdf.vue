@@ -89,7 +89,7 @@ const toggleFullscreen = () => {
 
 const downloadPdf = () => {
     if (props.latest_file && typeof window !== 'undefined') {
-        window.open(`/dashboard/files/pdf/${props.latest_file.id}/download`, '_blank')
+        window.open(`/pdf/${props.latest_file.id}/download`, '_blank')
     }
 }
 

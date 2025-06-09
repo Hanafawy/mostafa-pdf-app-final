@@ -112,7 +112,7 @@
                     <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
                         <div class="flex gap-2">
                             <a
-                                :href="`/dashboard/files/pdf/${file.id}/download`"
+                                :href="`pdf/${file.id}/download`"
                                 class="text-blue-600 hover:text-blue-900 dark:text-blue-400 dark:hover:text-blue-300 inline-flex items-center px-2 py-1 rounded-md hover:bg-blue-50 dark:hover:bg-blue-900/20"
                                 title="تحميل"
                             >
