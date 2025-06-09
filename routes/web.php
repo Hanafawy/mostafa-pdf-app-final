@@ -23,8 +23,9 @@ Route::middleware('auth')
     Route::get('/{pdf}', [PdfFileController::class, 'show']);
     Route::put('/{pdf}', [PdfFileController::class, 'update']);
     Route::delete('/{pdf}', [PdfFileController::class, 'destroy']);
-    Route::post('/bulk-update', [PdfFileController::class, 'bulkUpdate'])->name('pdf.bulk-update');
-    Route::post('/bulk-delete', [PdfFileController::class, 'bulkDelete'])->name('pdf.bulk-delete');
+    Route::get('/{pdf}/download', [PdfFileController::class, 'download'])->name('pdf.dashboard.download');
+
+
 });
 require __DIR__.'/settings.php';
 require __DIR__.'/auth.php';
