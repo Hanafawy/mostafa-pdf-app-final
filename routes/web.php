@@ -7,7 +7,7 @@ use Inertia\Inertia;
 Route::get('/', function () {
     return Inertia::render('Welcome');
 })->name('home');
-Route::get('/pdf/last', [PdfFileController::class, 'latestPdf'])->name('pdf.open');
+Route::get('/pdf/last', [PdfFileController::class, 'latestPdf'])->name('pdf.show');
 
 
 Route::get('dashboard', function () {
