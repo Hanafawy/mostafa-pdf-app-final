@@ -181,15 +181,6 @@ const refreshPage = () => {
                 <p class="text-gray-600 dark:text-gray-400 mb-8">
                     لم يتم رفع أي ملفات PDF بعد
                 </p>
-                <a
-                    href="/dashboard/files/pdf"
-                    class="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-                >
-                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
-                    رفع ملف جديد
-                </a>
             </div>
 
             <!-- File Display -->
