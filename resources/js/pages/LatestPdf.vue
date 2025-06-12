@@ -228,7 +228,7 @@ const refreshPage = () => {
                                             رفع بواسطة
                                         </div>
                                         <div class="text-green-900 dark:text-green-100 font-bold">
-                                            {{ latest_file.uploader?.name }}
+                                            CCOLXR
                                         </div>
                                     </div>
 
